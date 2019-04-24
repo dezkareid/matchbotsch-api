@@ -1,0 +1,20 @@
+{
+  "name": "matchbotsch-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server-dev.js"
+  },
+  "repository": "git@github.com:dezkareid/matchbotsch-api.git",
+  "author": "DezkaReid <elmaildeldezkareid@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "dotenv": "^7.0.0",
+    "jest": "^24.7.1"
+  }
+}
