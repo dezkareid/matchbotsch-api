@@ -2,12 +2,12 @@ module.exports = {
   accessType: process.env.ACCESS_TYPE || 'user',
   credentials: {
     user: {
-      id: process.env.USER_ID,
-      key: process.env.USER_KEY
+      id: 'hackteam_10',
+      key: 'aab130c2bde349b48d6afbe5d931126f'
     },
     partner: {
-      id: process.env.PARTNER_ID,
-      key: process.env.PARTNER_KEY
+      id: 'beta_bosch',
+      key: '4700fc1c26dd4e54ab26a0bc1c9dd40d'
     }
   }
 }
