@@ -78,7 +78,6 @@ function transformPart (part) {
     partName: part.partName,
     retailer: part.brand.displayName,
     image: (part.images && part.images[0] && part.images[0].preview) || 'https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image',
-    price: '$250',
     details: part.partsTechCatalogURL
   }
 }

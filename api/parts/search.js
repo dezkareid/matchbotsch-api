@@ -38,11 +38,13 @@ const cachedResponse = {
 }
 function search (req, res) {
   return res.json(cachedResponse)
-  const { year, make, model, submodel, part } = req.body
-  authModule.requestToken()
-    .then(() => partsModule.search(year, make, model, submodel, part))
-    .then(parts => res.json({ parts: parts.slice(0, 4) }))
-    .catch(console.error)
+  /*
+    const { year, make, model, submodel, part } = req.body
+    authModule.requestToken()
+      .then(() => partsModule.search(year, make, model, submodel, part))
+      .then(parts => res.json({ parts: parts.slice(0, 4) }))
+      .catch(console.error)
+  */
 }
 
 module.exports = search
